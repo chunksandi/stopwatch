@@ -60,51 +60,27 @@ body{
     height: 55px;
     border-radius: 5px;
 }
-.indivbut:hover{
-    box-shadow: 0;
-}
 
 .startbut{
     grid-area: but1;
     background-color: rgb(112, 218, 112);
 } 
-.startbut:hover{
-    border:solid 2.5px;
-    box-shadow: 0px 2px 2px 0px rgba(68, 68, 68, 0.349);
-    background-color: rgb(30, 46, 30);
-    color: whitesmoke;
-}
+
 
 .turnRed{
     background-color: rgb(240, 97, 97)
 }
-.turnRed:hover{
-    border:solid 2.5px;
-    box-shadow: 0px 2px 2px 0px rgba(68, 68, 68, 0.349);
-    background-color: rgb(85, 21, 21);
-    color: whitesmoke;
-}
+
 
 #lapbut{
     grid-area: lapbut;
     background-color: rgb(107, 141, 252);
 }
-#lapbut:hover{
-    border:solid 2.5px;
-    box-shadow: 0px 2px 2px 0px rgba(68, 68, 68, 0.349);
-    background-color: rgb(33, 46, 88);
-    color: whitesmoke;
-}
+
 
 #but3{
     grid-area: but3;
     background-color: rgb(247, 159, 247);
-}
-#but3:hover{
-    border:solid 2.5px;
-    box-shadow: 0px 2px 2px 0px rgba(68, 68, 68, 0.349);
-    background-color: rgb(94, 43, 94);
-    color: whitesmoke;
 }
 
 
@@ -187,5 +163,35 @@ p{
         padding-top: 18px;
         text-align: center;
     }
+}
 
+@media (min-width: 481px){
+    .indivbut:hover{
+        box-shadow: 0;
+    }
+    .startbut:hover{
+        border:solid 2.5px;
+        box-shadow: 0px 2px 2px 0px rgba(68, 68, 68, 0.349);
+        background-color: rgb(30, 46, 30);
+        color: whitesmoke;
+    }
+    .turnRed:hover{
+        border:solid 2.5px;
+        box-shadow: 0px 2px 2px 0px rgba(68, 68, 68, 0.349);
+        background-color: rgb(85, 21, 21);
+        color: whitesmoke;
+    }
+    #lapbut:hover{
+        border:solid 2.5px;
+        box-shadow: 0px 2px 2px 0px rgba(68, 68, 68, 0.349);
+        background-color: rgb(33, 46, 88);
+        color: whitesmoke;
+    }
+    #but3:hover{
+        border:solid 2.5px;
+        box-shadow: 0px 2px 2px 0px rgba(68, 68, 68, 0.349);
+        background-color: rgb(94, 43, 94);
+        color: whitesmoke;
+    }
+    
 }
