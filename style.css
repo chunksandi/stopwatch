@@ -165,7 +165,7 @@ p{
     }
 }
 
-@media (min-width: 481px){
+@media (min-width: 1025px){
     .indivbut:hover{
         box-shadow: 0;
     }
