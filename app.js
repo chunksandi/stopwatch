@@ -49,13 +49,13 @@ startBut.addEventListener('click', () => {
     if (startBut.innerHTML == "start" && x === 1) {
         startTime = Date.now()
         startBut.classList.add("turnRed")
-        timer = setInterval(resumeFromPauseFunc, 10)
+        timer = setInterval(resumeFromPauseFunc, 100)
         return startBut.innerText = "stop"
     }
     if (startBut.innerHTML == "start" && x === 0) {
         startBut.classList.add("turnRed")
         startTime = Date.now();
-        timer = setInterval(startCountingFunc, 10)
+        timer = setInterval(startCountingFunc, 100)
         startBut.innerText = "stop"
         return (x = 1)
     }
