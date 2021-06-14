@@ -68,9 +68,11 @@ startBut.addEventListener('click', () => {
 })
 
 lapBut.addEventListener('click', () => {
+    if (startBut.innerHTML === "stop"){
     let p = document.createElement('p')
     p.innerHTML = storedTime
     indivlap.insertBefore(p,indivlap.childNodes[0])
+    }
 })
 
 restartBut.addEventListener('click', () => {
